@@ -1,0 +1,10 @@
+01 - blink
+0.008A (8mA) led off 
+0.01A (13mA) led on
+10.5mA avg - 240mAH batteries = 16 hours
+
+02 - blink with sleep
+0.002A (2mA) asleep w led off
+0.008A (8mA) awake w led on
+5mA avg - 240mAH batteries = 33.6 hours
+
