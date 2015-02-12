@@ -12,8 +12,8 @@ void setup() {
   pinMode(PIEZO_PIN, INPUT);
 }
 
-
 void loop() {
+  analogRead(PIEZO_PIN);
   piezoValue = analogRead(PIEZO_PIN);     
   if (piezoValue >= THRESHOLD) {
     ledState = !ledState;
